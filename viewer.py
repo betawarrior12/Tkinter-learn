@@ -51,11 +51,11 @@ def forward(image_number):
     global button_back
 
     myLabel.grid_forget()
-    myLabel = Label(image=Images[image_number])
+    myLabel = Label(image=Images[image_number - 1])
 
     button_forward = Button(root, text=">>", command=lambda: forward(image_number + 1))
     button_back = Button(root, text="<<", command=lambda: back(image_number - 1))
-    if image_number == len(Images) - 1:
+    if image_number == len(Images):
         button_forward = Button(root, text=">>", state=DISABLED)
 
     myLabel.grid(row=0, column=0, columnspan=3)
@@ -69,7 +69,7 @@ def back(image_number):
     global button_back
 
     myLabel.grid_forget()
-    myLabel = Label(image=Images[image_number])
+    myLabel = Label(image=Images[image_number - 1])
 
     button_forward = Button(root, text=">>", command=lambda: forward(image_number + 1))
     button_back = Button(root, text="<<", command=lambda: back(image_number - 1))
@@ -84,7 +84,7 @@ def back(image_number):
 
 button_back = Button(root, text="<<", command=back, state=DISABLED)
 button_exit = Button(root, text="Exit Program", command=root.quit)
-button_forward = Button(root, text=">>", command=lambda: forward(1))
+button_forward = Button(root, text=">>", command=lambda: forward(2))
 
 
 button_back.grid(row=1, column=0)
