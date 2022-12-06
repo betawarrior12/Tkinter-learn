@@ -5,6 +5,7 @@ root = Tk()
 root.title("Code with Betawarrior12")
 root.iconbitmap("C:\\Users\\USER\\Pemi\\PYTHON\\Tkinter-learn\\Images\\Tanjiro.ico")
 
+
 def open():
     global myimg
     top = Toplevel()

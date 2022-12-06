@@ -45,7 +45,9 @@ myLabel = Label(image=myimg1)
 myLabel.grid(row=0, column=0, columnspan=3)
 
 
-status = Label(root, text="Image 1 of " + str(len(Images)), bd=1, relief=SUNKEN, anchor=W)
+status = Label(
+    root, text="Image 1 of " + str(len(Images)), bd=1, relief=SUNKEN, anchor=W
+)
 
 
 def forward(image_number):
@@ -65,9 +67,14 @@ def forward(image_number):
     button_back.grid(row=1, column=0)
     button_forward.grid(row=1, column=2)
 
-    status = Label(root, text="Image "+ str(image_number) +" of " + str(len(Images)), bd=1, relief=SUNKEN, anchor=W)
-    status.grid(row=2, column=0, columnspan=3, sticky=W+E)
-
+    status = Label(
+        root,
+        text="Image " + str(image_number) + " of " + str(len(Images)),
+        bd=1,
+        relief=SUNKEN,
+        anchor=W,
+    )
+    status.grid(row=2, column=0, columnspan=3, sticky=W + E)
 
 
 def back(image_number):
@@ -88,8 +95,14 @@ def back(image_number):
     button_back.grid(row=1, column=0)
     button_forward.grid(row=1, column=2)
 
-    status = Label(root, text="Image "+ str(image_number) +" of " + str(len(Images)), bd=1, relief=SUNKEN, anchor=W) 
-    status.grid(row=2, column=0, columnspan=3, sticky=W+E)
+    status = Label(
+        root,
+        text="Image " + str(image_number) + " of " + str(len(Images)),
+        bd=1,
+        relief=SUNKEN,
+        anchor=W,
+    )
+    status.grid(row=2, column=0, columnspan=3, sticky=W + E)
 
 
 button_back = Button(root, text="<<", command=back, state=DISABLED)
@@ -100,7 +113,7 @@ button_forward = Button(root, text=">>", command=lambda: forward(2))
 button_back.grid(row=1, column=0)
 button_exit.grid(row=1, column=1)
 button_forward.grid(row=1, column=2, pady=10)
-status.grid(row=2, column=0, columnspan=3, sticky=W+E)
+status.grid(row=2, column=0, columnspan=3, sticky=W + E)
 
 
 root.mainloop()
