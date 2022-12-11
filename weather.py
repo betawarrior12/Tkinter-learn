@@ -24,9 +24,11 @@ def weather(zipcode):
             color = "green"
         elif Category.lower() == "moderate":
             color = "orange"
+        elif Category.lower() == "unhealthy for sensitive groups":
+            color = "magenta"
         myLabel = Label(root, text=city + " Air Quality " + str(AQI) +  " " + Category, font=("romans", 20), background=color)
         root.configure(background=color)
-        myLabel.grid(row=0, column=0, columnspan=2)
+        myLabel.pack(row=0, column=0, columnspan=2)
         print(myLabel.size())
     except Exception as e:
         print(e)
