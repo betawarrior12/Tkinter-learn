@@ -296,73 +296,14 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/USER/Pemi/PYTHON/Python-projects/Learned/Python-Platformer/tutorial.py",
+			"file": "database.py",
 			"settings":
 			{
-				"buffer_size": 9334,
+				"buffer_size": 6358,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/USER/AppData/Roaming/Sublime Text/Packages/Anaconda/Anaconda.sublime-settings",
-			"settings":
-			{
-				"buffer_size": 21841,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
 			},
 			"undo_stack":
 			[
-				[
-					5,
-					6,
-					"left_delete",
-					null,
-					"BgAAALEmAAAAAAAAsSYAAAAAAAABAAAAZbAmAAAAAAAAsCYAAAAAAAABAAAAc68mAAAAAAAAryYAAAAAAAABAAAAbK4mAAAAAAAAriYAAAAAAAABAAAAYa0mAAAAAAAArSYAAAAAAAABAAAAZqwmAAAAAAAArCYAAAAAAAABAAAAIA",
-					"AQAAAAAAAAABAAAAsiYAAAAAAACyJgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					6,
-					1,
-					"insert",
-					{
-						"characters": " true"
-					},
-					"BQAAAKwmAAAAAAAArSYAAAAAAAAAAAAArSYAAAAAAACuJgAAAAAAAAAAAACuJgAAAAAAAK8mAAAAAAAAAAAAAK8mAAAAAAAAsCYAAAAAAAAAAAAAsCYAAAAAAACxJgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAArCYAAAAAAACsJgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					14,
-					1,
-					"left_delete",
-					null,
-					"AQAAAEY+AAAAAAAARj4AAAAAAAAFAAAAZmFsc2U",
-					"AQAAAAAAAAABAAAARj4AAAAAAABLPgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					15,
-					1,
-					"insert",
-					{
-						"characters": "tr"
-					},
-					"AgAAAEY+AAAAAAAARz4AAAAAAAAAAAAARz4AAAAAAABIPgAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAARj4AAAAAAABGPgAAAAAAAAAAAAAAAPC/"
-				],
-				[
-					16,
-					1,
-					"insert_completion",
-					{
-						"completion": "true",
-						"format": "text",
-						"keep_prefix": false,
-						"must_insert": false,
-						"trigger": "true"
-					},
-					"AgAAAEY+AAAAAAAARj4AAAAAAAACAAAAdHJGPgAAAAAAAEo+AAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAASD4AAAAAAABIPgAAAAAAAAAAAAAAAPC/"
-				]
 			]
 		}
 	],
@@ -582,10 +523,11 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/USER/Pemi/PYTHON/Python-projects/Learned/Python-Platformer"
+		"/C/Users/USER/Pemi/PYTHON/Python-projects/Made/Tkinter-learn"
 	],
 	"file_history":
 	[
+		"/C/Users/USER/AppData/Roaming/Sublime Text/Packages/Anaconda/Anaconda.sublime-settings",
 		"/C/Users/USER/Pemi/PYTHON/Python-projects/Github/Tkinter-learn/weather.py",
 		"/C/Users/USER/Pemi/PYTHON/Python-projects/Github/Tkinter-learn/status.py",
 		"/C/Users/USER/AppData/Roaming/Sublime Text 3/Packages/User/Sqlite3-connection.sublime-snippet",
@@ -675,19 +617,20 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/USER/Pemi/PYTHON/Python-projects/Learned/Python-Platformer/tutorial.py",
-					"semi_transient": true,
+					"file": "database.py",
+					"selected": true,
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9334,
+						"buffer_size": 6358,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								331,
+								331
 							]
 						],
 						"settings":
@@ -698,38 +641,6 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Users/USER/AppData/Roaming/Sublime Text/Packages/Anaconda/Anaconda.sublime-settings",
-					"selected": true,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 21841,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								18046,
-								18046
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JSON/JSON.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 10260.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

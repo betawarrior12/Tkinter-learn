@@ -3,7 +3,7 @@ from PIL import ImageTk, Image
 
 root = Tk()
 root.title("Code with Betawarior12 :)")
-root.iconbitmap("C:\\Users\\USER\\Pemi\\PYTHON\\Tkinter-learn\\Images\\Naruto.ico")
+root.iconbitmap("Images/Naruto.ico")
 
 Images = []
 
@@ -74,7 +74,7 @@ def back(image_number):
     button_forward = Button(root, text=">>", command=lambda: forward(image_number + 1))
     button_back = Button(root, text="<<", command=lambda: back(image_number - 1))
 
-    if image_number == 0:
+    if image_number == 1:
         button_back = Button(root, text="<<", state=DISABLED)
 
     myLabel.grid(row=0, column=0, columnspan=3)
