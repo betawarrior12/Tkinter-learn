@@ -5,7 +5,11 @@
 		[
 			[
 				"p",
-				"print()"
+				"print"
+			],
+			[
+				"i",
+				"image_number"
 			],
 			[
 				"r",
@@ -26,10 +30,6 @@
 			[
 				"mY",
 				"myLabel"
-			],
-			[
-				"i",
-				"import"
 			],
 			[
 				"be",
@@ -305,6 +305,44 @@
 			"undo_stack":
 			[
 			]
+		},
+		{
+			"file": "viewer.py",
+			"settings":
+			{
+				"buffer_size": 2658,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					4,
+					1,
+					"paste",
+					null,
+					"AgAAAHsAAAAAAAAAjAAAAAAAAAAAAAAAjAAAAAAAAACMAAAAAAAAAEAAAABDOlxcVXNlcnNcXFVTRVJcXFBlbWlcXFBZVEhPTlxcVGtpbnRlci1sZWFyblxcSW1hZ2VzXFxOYXJ1dG8uaWNv",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB7AAAAAAAAALsAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					242,
+					1,
+					"left_delete",
+					null,
+					"AQAAAFYIAAAAAAAAVggAAAAAAAABAAAAMA",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABXCAAAAAAAAFcIAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					243,
+					1,
+					"insert",
+					{
+						"characters": "1"
+					},
+					"AQAAAFYIAAAAAAAAVwgAAAAAAAAAAAAA",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABWCAAAAAAAAFYIAAAAAAAAAAAAAAAA8L8"
+				]
+			]
 		}
 	],
 	"build_system": "",
@@ -527,6 +565,8 @@
 	],
 	"file_history":
 	[
+		"/C/Users/USER/AppData/Roaming/Sublime Text/Packages/User/database-connect.sublime-snippet",
+		"/C/Users/USER/AppData/Roaming/Sublime Text/Packages/User/Tkinter-with-image.sublime-snippet",
 		"/C/Users/USER/AppData/Roaming/Sublime Text/Packages/Anaconda/Anaconda.sublime-settings",
 		"/C/Users/USER/Pemi/PYTHON/Python-projects/Github/Tkinter-learn/weather.py",
 		"/C/Users/USER/Pemi/PYTHON/Python-projects/Github/Tkinter-learn/status.py",
@@ -580,7 +620,7 @@
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 29.0
 	},
 	"find_in_files":
 	{
@@ -594,6 +634,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"image_number"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -629,8 +670,8 @@
 						"selection":
 						[
 							[
-								331,
-								331
+								5880,
+								5880
 							]
 						],
 						"settings":
@@ -640,10 +681,42 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 4542.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "viewer.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2658,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1939,
+								1939
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1153.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"stack_multiselect": false,
 					"type": "text"
 				}
@@ -652,7 +725,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 29.0
 	},
 	"input":
 	{
@@ -713,11 +786,11 @@
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "Packages/User/Python3.7.sublime-build",
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
 	"project": "PROJECT.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 54.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -754,7 +827,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 197.0,
 	"status_bar_visible": true,
 	"template_settings":
